@@ -1,6 +1,7 @@
-print("Ahoj Luky, dokázal jsi to!")
-print("XDDDDDDDDDDDDDDD")
-print("Jsme fakt bozi!")
-# jooooooo
-# jooooooo
-# jooooooo
+from gtts import gTTS
+import os
+myText = "Text to speech test test test haha čauky čurák"
+language = "cs"
+output = gTTS(text=myText, lang=language, slow=False)
+output.save("output.mp3")
+os.system("start output.mp3")
