@@ -1,0 +1,4 @@
+1) sample my voice
+2) get python to speak my voice
+3) voice to text
+4) funny quotes
